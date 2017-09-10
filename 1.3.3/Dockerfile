@@ -20,7 +20,7 @@ RUN set -xe \
     && chown -R www-data:www-data /usr/src/grav \
     && apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false $buildDeps \
     && a2enmod rewrite \
-    && /usr/src/grav/bin/gpm install -y admin git-sync
+    && cd /usr/src/grav && bin/gpm install -y admin git-sync
 
 COPY ./docker-entrypoint.sh /entrypoint.sh
 

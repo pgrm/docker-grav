@@ -1,0 +1,10 @@
+accounts/
+accounts/*
+config/
+config/*
+data/
+data/*
+plugins/
+plugins/*
+themes/
+themes/*

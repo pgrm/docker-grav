@@ -14,9 +14,9 @@ RUN set -xe \
     && apt-get update && apt-get install -y libpng12-0 $buildDeps --no-install-recommends \
     && rm -rf /var/lib/apt/lists/* \
     && docker-php-ext-install gd zip \
-    && ln -s /usr/src/grav /usr/src/grav/grav-admin \
+    && ln -s /usr/src/grav /usr/src/grav/grav \
     && unzip /usr/src/grav/grav.zip -d /usr/src/grav \
-    && rm /usr/src/grav/grav-admin.zip /usr/src/grav/grav-admin \
+    && rm /usr/src/grav/grav.zip /usr/src/grav/grav \
     && chown -R www-data:www-data /usr/src/grav \
     && apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false $buildDeps
 

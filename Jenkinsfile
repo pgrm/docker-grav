@@ -14,7 +14,7 @@ node('static-website') {
 
 		stage ('build and publish docker images') {
       sh 'chmod +x publish-dockerfiles.sh'
-      sh 'publish-dockerfiles.sh'
+      sh './publish-dockerfiles.sh'
 		}
 	}
 	catch (e) {

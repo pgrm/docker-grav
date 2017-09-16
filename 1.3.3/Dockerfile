@@ -15,9 +15,9 @@ RUN set -xe \
     && docker-php-ext-install gd zip \
     && unzip /usr/src/grav/grav.zip -d /usr/src/grav/.unpacked \
     && rm /usr/src/grav/grav.zip \
-    && mv /usr/src/grav/.unpacked/*/* /usr/src/grav
-    && mv /usr/src/grav/.unpacked/*/.* /usr/src/grav
-    && rm -rf /usr/src/grav/.unpacked
+    && mv /usr/src/grav/.unpacked/*/* /usr/src/grav \
+    && mv /usr/src/grav/.unpacked/*/.* /usr/src/grav \
+    && rm -rf /usr/src/grav/.unpacked \
     && chown -R www-data:www-data /usr/src/grav \
     && apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false $buildDeps \
     && a2enmod rewrite \

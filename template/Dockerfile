@@ -1,6 +1,6 @@
 FROM php:7-apache
 
-ENV GRAV_URL "https://getgrav.org/download/core/grav/1.3.3"
+ENV GRAV_URL "%GRAV_URL%"
 
 RUN mkdir -p /usr/src/grav \
     && curl -fSL -o /usr/src/grav/grav.zip "$GRAV_URL"

@@ -1,0 +1,2 @@
+1.3.3|https://getgrav.org/download/core/grav/1.3.3
+woo-site-1.0.1|https://getgrav.org/download/skeletons/woo-site/1.0.1

@@ -24,13 +24,6 @@ RUN set -xe \
 
 COPY ./docker-entrypoint.sh /entrypoint.sh
 
-COPY git-sync.gitignore /usr/src/grav/user/.gitignore
-COPY git-sync.yaml /usr/src/grav/user/config/plugins
-
-RUN cd /usr/src/grav/user && git init && git remote add origin https://user:password@allothers.repo/getgrav/grav.git
-
-COPY git_info_sparse-checkout /usr/src/grav/user/.git/info/sparse-checkout
-
 VOLUME /var/www/html
 
 ENTRYPOINT [ "/bin/sh", "/entrypoint.sh" ]

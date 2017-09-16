@@ -15,4 +15,5 @@ do
     cd $name
     docker build -t pgrm/grav:$name .
     docker push pgrm/grav:$name
+    cd ..
 done < template/versions.txt

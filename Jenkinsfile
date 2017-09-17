@@ -1,6 +1,6 @@
 #!groovy
 
-slackChannel = '#webbsc'
+slackChannel = '#website'
 slackDomain = 'grman-it'
 slackToken = '1jPN1qnmKt533kg3SSc3xWsY'
 tag = "office-redirect-${env.BRANCH_NAME}"

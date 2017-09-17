@@ -18,7 +18,7 @@ RUN set -xe \
     && rm -rf /usr/src/grav/.unpacked \
     && chown -R www-data:www-data /usr/src/grav \
     && cd /usr/src/grav \
-        && bin/gpm selfupgrade \
+        && bin/gpm selfupgrade -y \
         && bin/gpm install -y admin git-sync
 
 COPY ./docker-entrypoint.sh /entrypoint.sh

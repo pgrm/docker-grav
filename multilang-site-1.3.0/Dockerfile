@@ -19,7 +19,7 @@ RUN set -xe \
     && chown -R www-data:www-data /usr/src/grav \
     && cd /usr/src/grav \
         && bin/gpm selfupgrade \
-        && bin/gpm update -y \
+        && bin/gpm update -f -y \
         && bin/gpm install -y admin git-sync
 
 COPY ./docker-entrypoint.sh /entrypoint.sh

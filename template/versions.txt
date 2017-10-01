@@ -1,4 +1,5 @@
 1.3.3|https://getgrav.org/download/core/grav/1.3.3
+1.3.4|https://getgrav.org/download/core/grav/1.3.4
 agency-site-1.0.3|https://getgrav.org/download/skeletons/agency-site/1.0.3
 appi-site-1.0.0|https://getgrav.org/download/skeletons/appi-site/1.0.0
 boxify-site-1.0.0|https://getgrav.org/download/skeletons/boxify-site/1.0.0
@@ -18,4 +19,14 @@ receptar-site-1.1.0|https://getgrav.org/download/skeletons/receptar-site/1.1.0
 resume-site-1.1.0|https://getgrav.org/download/skeletons/resume-site/1.1.0
 rtfm-site-1.0.2|https://getgrav.org/download/skeletons/rtfm-site/1.0.2
 twenty-site-1.1.0|https://getgrav.org/download/skeletons/twenty-site/1.1.0
+twentyfifteen-site-1.0.3|https://getgrav.org/download/skeletons/twentyfifteen-site/1.0.3
 woo-site-1.0.1|https://getgrav.org/download/skeletons/woo-site/1.0.1
+striped-site-1.0.3|https://getgrav.org/download/skeletons/striped-site/1.0.3
+soraarticle-blog-1.1.2|https://getgrav.org/download/skeletons/soraarticle-blog/1.1.2
+shop-site-1.0.0|https://getgrav.org/download/skeletons/shop-site/1.0.0
+saturn-site-1.1.0|https://getgrav.org/download/skeletons/saturn-site/1.1.0
+pinpress-site-1.0.0|https://getgrav.org/download/skeletons/pinpress-site/1.0.0
+onepage-site-1.0.2|https://getgrav.org/download/skeletons/onepage-site/1.0.2
+mediator-site-1.0.2|https://getgrav.org/download/skeletons/mediator-site/1.0.2
+halcyon-site-1.0.0|https://getgrav.org/download/skeletons/halcyon-site/1.0.0
+blog-site-1.1.1|https://getgrav.org/download/skeletons/blog-site/1.1.1

@@ -2,12 +2,13 @@ FROM php:7-apache
 
 RUN set -xe \
     && mkdir -p /usr/src/grav/.unpacked \
-    && apt-get update && apt-get install -y libpng12-0 git unzip libpng12-dev --no-install-recommends \
+    && apt-get update && apt-get install -y libpng16-16 git unzip libpng-dev libjpeg62-turbo libjpeg62-turbo-dev --no-install-recommends \
     && rm -rf /var/lib/apt/lists/* \
+    && docker-php-ext-configure gd --with-png-dir=/usr --with-jpeg-dir=/usr \
     && docker-php-ext-install gd zip \
     && a2enmod rewrite
 
-ENV GRAV_URL "https://getgrav.org/download/core/grav/1.3.4"
+ENV GRAV_URL "https://getgrav.org/download/core/grav/1.3.10"
 
 RUN set -xe \
     && curl -fSL -o /usr/src/grav/grav.zip "$GRAV_URL" \

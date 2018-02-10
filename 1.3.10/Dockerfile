@@ -8,7 +8,7 @@ RUN set -xe \
     && docker-php-ext-install gd zip \
     && a2enmod rewrite
 
-ENV GRAV_URL "https://getgrav.org/download/core/grav/1.3.3"
+ENV GRAV_URL "https://getgrav.org/download/core/grav/1.3.10"
 
 RUN set -xe \
     && curl -fSL -o /usr/src/grav/grav.zip "$GRAV_URL" \

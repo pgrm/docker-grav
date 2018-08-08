@@ -19,7 +19,7 @@ RUN { \
 		echo 'opcache.enable_cli=1'; \
 } > /usr/local/etc/php/conf.d/opcache-recommended.ini
 
-ENV GRAV_URL "https://getgrav.org/download/core/grav/1.3.10"
+ENV GRAV_URL "https://getgrav.org/download/core/grav/1.4.8"
 
 RUN set -xe \
     && curl -fSL -o /usr/src/grav/grav.zip "$GRAV_URL" \

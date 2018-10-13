@@ -1,4 +1,4 @@
-1.4.8|https://getgrav.org/download/core/grav/1.4.8
+1.5.3|https://getgrav.org/download/core/grav/1.5.3
 agency-site-1.0.3|https://getgrav.org/download/skeletons/agency-site/1.0.3
 appi-site-1.0.0|https://getgrav.org/download/skeletons/appi-site/1.0.0
 blog-site-1.1.1|https://getgrav.org/download/skeletons/blog-site/1.1.1
